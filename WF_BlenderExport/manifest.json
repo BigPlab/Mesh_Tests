@@ -1,7 +1,8 @@
 {
- "version": 1,
+ "version": 2,
  "name": "WF_BlenderExport",
  "nocull": false,
+ "yaw": 0.0,
  "nodes": [
   {
    "name": "T_Upper",
@@ -15,20 +16,9 @@
     0.0,
     0.0
    ],
-   "children": [
+   "meshes": [
     {
-     "name": "Circle.006",
-     "pos": [
-      0.07285,
-      10.7004,
-      22.52362
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      -71.48955
-     ],
-     "file": "T_Upper/Circle_006.obj",
+     "file": "T_Upper/mesh_1.obj",
      "color": [
       255,
       149,
@@ -38,18 +28,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Cube.003",
-     "pos": [
-      0.0,
-      10.54724,
-      20.67072
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "file": "T_Upper/Cube_003.obj",
+     "file": "T_Upper/mesh_2.obj",
      "color": [
       47,
       33,
@@ -59,18 +38,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "HeadDark.001",
-     "pos": [
-      2.97133,
-      -2.99817,
-      16.97725
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      10.64653
-     ],
-     "file": "T_Upper/HeadDark_001.obj",
+     "file": "T_Upper/mesh_3.obj",
      "color": [
       0,
       0,
@@ -80,18 +48,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Plane.001",
-     "pos": [
-      2.625,
-      -2.76708,
-      18.18151
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      -84.99998
-     ],
-     "file": "T_Upper/Plane_001.obj",
+     "file": "T_Upper/mesh_4.obj",
      "color": [
       255,
       255,
@@ -101,18 +58,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Plane.002",
-     "pos": [
-      4.75086,
-      2.84271,
-      17.61767
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      -84.99998
-     ],
-     "file": "T_Upper/Plane_002.obj",
+     "file": "T_Upper/mesh_5.obj",
      "color": [
       140,
       181,
@@ -122,18 +68,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Plane.007",
-     "pos": [
-      3.61457,
-      5.64408,
-      21.93296
-     ],
-     "ang": [
-      -89.99997,
-      0.0,
-      -1e-05
-     ],
-     "file": "T_Upper/Plane_007.obj",
+     "file": "T_Upper/mesh_6.obj",
      "color": [
       67,
       76,
@@ -156,20 +91,9 @@
     0.0,
     0.0
    ],
-   "children": [
+   "meshes": [
     {
-     "name": "Circle.021",
-     "pos": [
-      -4.23117,
-      9.90967,
-      7.36206
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      -71.48955
-     ],
-     "file": "T_Lower/Circle_021.obj",
+     "file": "T_Lower/mesh_1.obj",
      "color": [
       255,
       149,
@@ -179,18 +103,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Cube.012",
-     "pos": [
-      -4.35457,
-      10.16584,
-      5.68587
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      75.55527
-     ],
-     "file": "T_Lower/Cube_012.obj",
+     "file": "T_Lower/mesh_2.obj",
      "color": [
       47,
       33,
@@ -200,18 +113,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "HeadDark.002",
-     "pos": [
-      -2.0624,
-      -10.66672,
-      -0.87858
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      10.64653
-     ],
-     "file": "T_Lower/HeadDark_002.obj",
+     "file": "T_Lower/mesh_3.obj",
      "color": [
       0,
       0,
@@ -221,18 +123,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Plane.003",
-     "pos": [
-      -2.06252,
-      -11.85661,
-      0.95594
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      -84.99998
-     ],
-     "file": "T_Lower/Plane_003.obj",
+     "file": "T_Lower/mesh_4.obj",
      "color": [
       255,
       255,
@@ -242,39 +133,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Plane.004",
-     "pos": [
-      -4.35457,
-      4.07709,
-      -3.5427
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      -84.99998
-     ],
-     "file": "T_Lower/Plane_004.obj",
-     "color": [
-      140,
-      181,
-      231,
-      255
-     ],
-     "material": "hunter/myplastic"
-    },
-    {
-     "name": "Sphere.002",
-     "pos": [
-      -4.35457,
-      -10.90789,
-      12.42284
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      10.0
-     ],
-     "file": "T_Lower/Sphere_002.obj",
+     "file": "T_Lower/mesh_5.obj",
      "color": [
       140,
       181,
@@ -297,20 +156,9 @@
     0.0,
     0.0
    ],
-   "children": [
+   "meshes": [
     {
-     "name": "Circle.022",
-     "pos": [
-      13.04966,
-      0.7807,
-      3.29348
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      -71.48955
-     ],
-     "file": "R_Shoulder/Circle_022.obj",
+     "file": "R_Shoulder/mesh_1.obj",
      "color": [
       255,
       149,
@@ -320,18 +168,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Cylinder",
-     "pos": [
-      12.52328,
-      0.25356,
-      0.04893
-     ],
-     "ang": [
-      -90.0,
-      0.0,
-      -1e-05
-     ],
-     "file": "R_Shoulder/Cylinder.obj",
+     "file": "R_Shoulder/mesh_2.obj",
      "color": [
       67,
       76,
@@ -341,18 +178,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Plane.016",
-     "pos": [
-      11.69423,
-      0.26896,
-      0.15108
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "file": "R_Shoulder/Plane_016.obj",
+     "file": "R_Shoulder/mesh_3.obj",
      "color": [
       140,
       181,
@@ -362,18 +188,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Plane.017",
-     "pos": [
-      11.95674,
-      0.66157,
-      2.77576
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "file": "R_Shoulder/Plane_017.obj",
+     "file": "R_Shoulder/mesh_4.obj",
      "color": [
       47,
       33,
@@ -383,18 +198,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Sphere.013",
-     "pos": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      10.0
-     ],
-     "file": "R_Shoulder/Sphere_013.obj",
+     "file": "R_Shoulder/mesh_5.obj",
      "color": [
       255,
       255,
@@ -417,20 +221,9 @@
     0.0,
     0.0
    ],
-   "children": [
+   "meshes": [
     {
-     "name": "Circle.023",
-     "pos": [
-      -13.04966,
-      0.7807,
-      3.29347
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      -71.48955
-     ],
-     "file": "L_Shoulder/Circle_023.obj",
+     "file": "L_Shoulder/mesh_1.obj",
      "color": [
       255,
       149,
@@ -440,18 +233,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Cylinder.002",
-     "pos": [
-      -12.52329,
-      0.25356,
-      0.04893
-     ],
-     "ang": [
-      -90.0,
-      0.0,
-      -1e-05
-     ],
-     "file": "L_Shoulder/Cylinder_002.obj",
+     "file": "L_Shoulder/mesh_2.obj",
      "color": [
       67,
       76,
@@ -461,18 +243,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Plane.029",
-     "pos": [
-      -11.69423,
-      0.26896,
-      0.15105
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "file": "L_Shoulder/Plane_029.obj",
+     "file": "L_Shoulder/mesh_3.obj",
      "color": [
       140,
       181,
@@ -482,18 +253,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Plane.030",
-     "pos": [
-      -11.95674,
-      0.66157,
-      2.77574
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "file": "L_Shoulder/Plane_030.obj",
+     "file": "L_Shoulder/mesh_4.obj",
      "color": [
       47,
       33,
@@ -516,20 +276,9 @@
     0.0,
     0.0
    ],
-   "children": [
+   "meshes": [
     {
-     "name": "Cube.013",
-     "pos": [
-      -11.73703,
-      0.45326,
-      0.25402
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "file": "L_Forearm/Cube_013.obj",
+     "file": "L_Forearm/mesh_1.obj",
      "color": [
       140,
       181,
@@ -539,18 +288,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Cylinder.006",
-     "pos": [
-      -13.88198,
-      0.39979,
-      0.25587
-     ],
-     "ang": [
-      -90.0,
-      0.0,
-      -1e-05
-     ],
-     "file": "L_Forearm/Cylinder_006.obj",
+     "file": "L_Forearm/mesh_2.obj",
      "color": [
       67,
       76,
@@ -560,18 +298,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Plane.031",
-     "pos": [
-      -12.61749,
-      2.78069,
-      -0.00462
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      -90.00001
-     ],
-     "file": "L_Forearm/Plane_031.obj",
+     "file": "L_Forearm/mesh_3.obj",
      "color": [
       47,
       33,
@@ -581,39 +308,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Plane.032",
-     "pos": [
-      -9.95939,
-      2.73965,
-      -0.00295
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      -90.00001
-     ],
-     "file": "L_Forearm/Plane_032.obj",
-     "color": [
-      255,
-      255,
-      255,
-      255
-     ],
-     "material": "hunter/myplastic"
-    },
-    {
-     "name": "Sphere.020",
-     "pos": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      10.0
-     ],
-     "file": "L_Forearm/Sphere_020.obj",
+     "file": "L_Forearm/mesh_4.obj",
      "color": [
       255,
       255,
@@ -636,20 +331,9 @@
     0.0,
     0.0
    ],
-   "children": [
+   "meshes": [
     {
-     "name": "Cube.001",
-     "pos": [
-      11.73704,
-      0.45326,
-      0.25404
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "file": "R_Forearm/Cube_001.obj",
+     "file": "R_Forearm/mesh_1.obj",
      "color": [
       140,
       181,
@@ -659,18 +343,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Cylinder.001",
-     "pos": [
-      13.88199,
-      0.39979,
-      0.25586
-     ],
-     "ang": [
-      -90.0,
-      0.0,
-      -1e-05
-     ],
-     "file": "R_Forearm/Cylinder_001.obj",
+     "file": "R_Forearm/mesh_2.obj",
      "color": [
       67,
       76,
@@ -680,18 +353,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Plane.018",
-     "pos": [
-      12.61749,
-      2.78069,
-      -0.00462
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      -90.00001
-     ],
-     "file": "R_Forearm/Plane_018.obj",
+     "file": "R_Forearm/mesh_3.obj",
      "color": [
       47,
       33,
@@ -701,39 +363,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Plane.019",
-     "pos": [
-      9.95939,
-      2.73965,
-      -0.00297
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      -90.00001
-     ],
-     "file": "R_Forearm/Plane_019.obj",
-     "color": [
-      255,
-      255,
-      255,
-      255
-     ],
-     "material": "hunter/myplastic"
-    },
-    {
-     "name": "Sphere.001",
-     "pos": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      10.0
-     ],
-     "file": "R_Forearm/Sphere_001.obj",
+     "file": "R_Forearm/mesh_4.obj",
      "color": [
       255,
       255,
@@ -756,20 +386,9 @@
     0.0,
     0.0
    ],
-   "children": [
+   "meshes": [
     {
-     "name": "Cube.002",
-     "pos": [
-      9.34064,
-      -1.82231,
-      -1.07659
-     ],
-     "ang": [
-      -0.02196,
-      0.01537,
-      0.0
-     ],
-     "file": "R_Hand/Cube_002.obj",
+     "file": "R_Hand/mesh_1.obj",
      "color": [
       140,
       181,
@@ -779,18 +398,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Cylinder.003",
-     "pos": [
-      7.85821,
-      -1.52629,
-      -2.18781
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "file": "R_Hand/Cylinder_003.obj",
+     "file": "R_Hand/mesh_2.obj",
      "color": [
       255,
       255,
@@ -800,18 +408,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Sphere.015",
-     "pos": [
-      10.78271,
-      -2.50096,
-      -0.62734
-     ],
-     "ang": [
-      -45.73011,
-      0.0,
-      0.0
-     ],
-     "file": "R_Hand/Sphere_015.obj",
+     "file": "R_Hand/mesh_3.obj",
      "color": [
       255,
       149,
@@ -821,18 +418,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Sphere.018",
-     "pos": [
-      9.96609,
-      -2.12741,
-      -0.65968
-     ],
-     "ang": [
-      -45.73011,
-      0.0,
-      0.0
-     ],
-     "file": "R_Hand/Sphere_018.obj",
+     "file": "R_Hand/mesh_4.obj",
      "color": [
       47,
       33,
@@ -855,20 +441,9 @@
     0.0,
     0.0
    ],
-   "children": [
+   "meshes": [
     {
-     "name": "Cube.011",
-     "pos": [
-      -9.33923,
-      -1.82343,
-      -1.0738
-     ],
-     "ang": [
-      -0.02196,
-      0.01537,
-      0.0
-     ],
-     "file": "L_Hand/Cube_011.obj",
+     "file": "L_Hand/mesh_1.obj",
      "color": [
       140,
       181,
@@ -878,18 +453,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Cylinder.005",
-     "pos": [
-      -7.85821,
-      -1.52629,
-      -2.18781
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "file": "L_Hand/Cylinder_005.obj",
+     "file": "L_Hand/mesh_2.obj",
      "color": [
       255,
       255,
@@ -899,18 +463,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Sphere.021",
-     "pos": [
-      -9.9689,
-      -2.12741,
-      -0.65934
-     ],
-     "ang": [
-      -45.73011,
-      0.0,
-      0.0
-     ],
-     "file": "L_Hand/Sphere_021.obj",
+     "file": "L_Hand/mesh_3.obj",
      "color": [
       47,
       33,
@@ -920,18 +473,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Sphere.022",
-     "pos": [
-      -10.78513,
-      -2.50096,
-      -0.62823
-     ],
-     "ang": [
-      -45.73011,
-      0.0,
-      0.0
-     ],
-     "file": "L_Hand/Sphere_022.obj",
+     "file": "L_Hand/mesh_4.obj",
      "color": [
       255,
       149,
@@ -954,20 +496,9 @@
     0.0,
     0.0
    ],
-   "children": [
+   "meshes": [
     {
-     "name": "Plane.006",
-     "pos": [
-      0.69665,
-      -4.93057,
-      -11.00365
-     ],
-     "ang": [
-      -95.00001,
-      9e-05,
-      -0.0001
-     ],
-     "file": "R_Thigh/Plane_006.obj",
+     "file": "R_Thigh/mesh_1.obj",
      "color": [
       67,
       76,
@@ -977,18 +508,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Plane.008",
-     "pos": [
-      0.41062,
-      -6.81085,
-      -9.44994
-     ],
-     "ang": [
-      -90.0,
-      0.0,
-      -1e-05
-     ],
-     "file": "R_Thigh/Plane_008.obj",
+     "file": "R_Thigh/mesh_2.obj",
      "color": [
       140,
       181,
@@ -998,43 +518,11 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Plane.009",
-     "pos": [
-      1.06379,
-      1.74978,
-      -11.63482
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      53.17469
-     ],
-     "file": "R_Thigh/Plane_009.obj",
+     "file": "R_Thigh/mesh_3.obj",
      "color": [
       255,
       255,
       255,
-      255
-     ],
-     "material": "hunter/myplastic"
-    },
-    {
-     "name": "Plane.033",
-     "pos": [
-      0.41062,
-      -6.81085,
-      -9.44994
-     ],
-     "ang": [
-      -90.0,
-      0.0,
-      -1e-05
-     ],
-     "file": "R_Thigh/Plane_033.obj",
-     "color": [
-      140,
-      181,
-      231,
       255
      ],
      "material": "hunter/myplastic"
@@ -1053,20 +541,9 @@
     0.0,
     0.0
    ],
-   "children": [
+   "meshes": [
     {
-     "name": "Plane.005",
-     "pos": [
-      19.53876,
-      -4.93057,
-      -11.00365
-     ],
-     "ang": [
-      -95.00001,
-      9e-05,
-      -0.0001
-     ],
-     "file": "L_Thigh/Plane_005.obj",
+     "file": "L_Thigh/mesh_1.obj",
      "color": [
       67,
       76,
@@ -1076,18 +553,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Plane.021",
-     "pos": [
-      19.9059,
-      1.74978,
-      -11.63482
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      53.17469
-     ],
-     "file": "L_Thigh/Plane_021.obj",
+     "file": "L_Thigh/mesh_2.obj",
      "color": [
       255,
       255,
@@ -1110,20 +576,9 @@
     0.0,
     0.0
    ],
-   "children": [
+   "meshes": [
     {
-     "name": "Plane",
-     "pos": [
-      1.26307,
-      10.4593,
-      -10.2802
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      -51.71226
-     ],
-     "file": "R_L1/Plane.obj",
+     "file": "R_L1/mesh_1.obj",
      "color": [
       255,
       255,
@@ -1133,18 +588,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Plane.010",
-     "pos": [
-      0.63004,
-      3.64448,
-      -8.44181
-     ],
-     "ang": [
-      -114.61648,
-      51.5851,
-      -54.2106
-     ],
-     "file": "R_L1/Plane_010.obj",
+     "file": "R_L1/mesh_2.obj",
      "color": [
       67,
       76,
@@ -1154,43 +598,11 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Plane.011",
-     "pos": [
-      0.82587,
-      2.39277,
-      -8.4257
-     ],
-     "ang": [
-      0.0,
-      90.0,
-      -74.99999
-     ],
-     "file": "R_L1/Plane_011.obj",
+     "file": "R_L1/mesh_3.obj",
      "color": [
       140,
       181,
       231,
-      255
-     ],
-     "material": "hunter/myplastic"
-    },
-    {
-     "name": "Sphere.011",
-     "pos": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "file": "R_L1/Sphere_011.obj",
-     "color": [
-      255,
-      255,
-      255,
       255
      ],
      "material": "hunter/myplastic"
@@ -1209,20 +621,9 @@
     0.0,
     0.0
    ],
-   "children": [
+   "meshes": [
     {
-     "name": "Plane.022",
-     "pos": [
-      24.84707,
-      10.4593,
-      -10.2802
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      -51.71226
-     ],
-     "file": "L_1/Plane_022.obj",
+     "file": "L_1/mesh_1.obj",
      "color": [
       255,
       255,
@@ -1232,18 +633,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Plane.023",
-     "pos": [
-      24.21404,
-      3.64448,
-      -8.44181
-     ],
-     "ang": [
-      -114.61648,
-      51.5851,
-      -54.2106
-     ],
-     "file": "L_1/Plane_023.obj",
+     "file": "L_1/mesh_2.obj",
      "color": [
       67,
       76,
@@ -1253,43 +643,11 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Plane.024",
-     "pos": [
-      24.40987,
-      2.39277,
-      -8.4257
-     ],
-     "ang": [
-      0.0,
-      90.0,
-      -74.99999
-     ],
-     "file": "L_1/Plane_024.obj",
+     "file": "L_1/mesh_3.obj",
      "color": [
       140,
       181,
       231,
-      255
-     ],
-     "material": "hunter/myplastic"
-    },
-    {
-     "name": "Sphere.016",
-     "pos": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "file": "L_1/Sphere_016.obj",
-     "color": [
-      255,
-      255,
-      255,
       255
      ],
      "material": "hunter/myplastic"
@@ -1308,20 +666,9 @@
     0.0,
     0.0
    ],
-   "children": [
+   "meshes": [
     {
-     "name": "Plane.012",
-     "pos": [
-      0.83599,
-      -0.07559,
-      -8.06044
-     ],
-     "ang": [
-      80.0,
-      4e-05,
-      4e-05
-     ],
-     "file": "R_L2/Plane_012.obj",
+     "file": "R_L2/mesh_1.obj",
      "color": [
       140,
       181,
@@ -1331,18 +678,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Plane.013",
-     "pos": [
-      0.85872,
-      -0.65717,
-      -8.0507
-     ],
-     "ang": [
-      80.0,
-      4e-05,
-      4e-05
-     ],
-     "file": "R_L2/Plane_013.obj",
+     "file": "R_L2/mesh_2.obj",
      "color": [
       47,
       33,
@@ -1352,39 +688,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Plane.014",
-     "pos": [
-      0.67364,
-      4.50243,
-      -6.94395
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      -51.71226
-     ],
-     "file": "R_L2/Plane_014.obj",
-     "color": [
-      255,
-      255,
-      255,
-      255
-     ],
-     "material": "hunter/myplastic"
-    },
-    {
-     "name": "Sphere.010",
-     "pos": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      15.0
-     ],
-     "file": "R_L2/Sphere_010.obj",
+     "file": "R_L2/mesh_3.obj",
      "color": [
       255,
       255,
@@ -1407,20 +711,9 @@
     0.0,
     0.0
    ],
-   "children": [
+   "meshes": [
     {
-     "name": "Plane.025",
-     "pos": [
-      28.19359,
-      -0.07559,
-      -8.06044
-     ],
-     "ang": [
-      80.0,
-      4e-05,
-      4e-05
-     ],
-     "file": "L_2/Plane_025.obj",
+     "file": "L_2/mesh_1.obj",
      "color": [
       140,
       181,
@@ -1430,18 +723,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Plane.026",
-     "pos": [
-      28.21631,
-      -0.65717,
-      -8.0507
-     ],
-     "ang": [
-      80.0,
-      4e-05,
-      4e-05
-     ],
-     "file": "L_2/Plane_026.obj",
+     "file": "L_2/mesh_2.obj",
      "color": [
       67,
       76,
@@ -1451,39 +733,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Plane.027",
-     "pos": [
-      28.03123,
-      4.50243,
-      -6.94395
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      -51.71226
-     ],
-     "file": "L_2/Plane_027.obj",
-     "color": [
-      255,
-      255,
-      255,
-      255
-     ],
-     "material": "hunter/myplastic"
-    },
-    {
-     "name": "Sphere.014",
-     "pos": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      15.0
-     ],
-     "file": "L_2/Sphere_014.obj",
+     "file": "L_2/mesh_3.obj",
      "color": [
       255,
       255,
@@ -1506,20 +756,9 @@
     0.0,
     0.0
    ],
-   "children": [
+   "meshes": [
     {
-     "name": "Cube.009",
-     "pos": [
-      -2.84867,
-      -9.86785,
-      -16.01986
-     ],
-     "ang": [
-      0.0,
-      13.50727,
-      0.0
-     ],
-     "file": "L_3/Cube_009.obj",
+     "file": "L_3/mesh_1.obj",
      "color": [
       255,
       255,
@@ -1529,43 +768,11 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Plane.028",
-     "pos": [
-      31.59015,
-      -5.58584,
-      -12.21338
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      69.07607
-     ],
-     "file": "L_3/Plane_028.obj",
+     "file": "L_3/mesh_2.obj",
      "color": [
       140,
       181,
       231,
-      255
-     ],
-     "material": "hunter/myplastic"
-    },
-    {
-     "name": "Sphere.017",
-     "pos": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "file": "L_3/Sphere_017.obj",
-     "color": [
-      255,
-      255,
-      255,
       255
      ],
      "material": "hunter/myplastic"
@@ -1584,20 +791,9 @@
     0.0,
     0.0
    ],
-   "children": [
+   "meshes": [
     {
-     "name": "Cube.008",
-     "pos": [
-      1.93465,
-      -13.15251,
-      -16.53046
-     ],
-     "ang": [
-      0.0,
-      13.50727,
-      0.0
-     ],
-     "file": "R_L3/Cube_008.obj",
+     "file": "R_L3/mesh_1.obj",
      "color": [
       255,
       255,
@@ -1607,43 +803,11 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Plane.015",
-     "pos": [
-      0.87335,
-      -5.58584,
-      -12.21338
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      69.07607
-     ],
-     "file": "R_L3/Plane_015.obj",
+     "file": "R_L3/mesh_2.obj",
      "color": [
       140,
       181,
       231,
-      255
-     ],
-     "material": "hunter/myplastic"
-    },
-    {
-     "name": "Sphere.012",
-     "pos": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "file": "R_L3/Sphere_012.obj",
-     "color": [
-      255,
-      255,
-      255,
       255
      ],
      "material": "hunter/myplastic"
@@ -1662,20 +826,9 @@
     0.0,
     0.0
    ],
-   "children": [
+   "meshes": [
     {
-     "name": "Circle",
-     "pos": [
-      0.0,
-      10.4203,
-      1.36299
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      -7.44286
-     ],
-     "file": "T_1/Circle.obj",
+     "file": "T_1/mesh_1.obj",
      "color": [
       140,
       181,
@@ -1685,18 +838,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Circle.013",
-     "pos": [
-      0.0,
-      10.46798,
-      2.49105
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      -7.44286
-     ],
-     "file": "T_1/Circle_013.obj",
+     "file": "T_1/mesh_2.obj",
      "color": [
       255,
       255,
@@ -1706,43 +848,11 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Circle.015",
-     "pos": [
-      0.0,
-      10.59584,
-      5.4782
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      -7.44286
-     ],
-     "file": "T_1/Circle_015.obj",
+     "file": "T_1/mesh_3.obj",
      "color": [
       67,
       76,
       195,
-      255
-     ],
-     "material": "hunter/myplastic"
-    },
-    {
-     "name": "Sphere.003",
-     "pos": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "file": "T_1/Sphere_003.obj",
-     "color": [
-      140,
-      181,
-      231,
       255
      ],
      "material": "hunter/myplastic"
@@ -1761,20 +871,9 @@
     0.0,
     0.0
    ],
-   "children": [
+   "meshes": [
     {
-     "name": "Circle.001",
-     "pos": [
-      0.0,
-      9.08481,
-      0.52808
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      -7.44286
-     ],
-     "file": "T_2/Circle_001.obj",
+     "file": "T_2/mesh_1.obj",
      "color": [
       140,
       181,
@@ -1784,18 +883,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Circle.010",
-     "pos": [
-      0.0,
-      9.05189,
-      1.47435
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      -7.44286
-     ],
-     "file": "T_2/Circle_010.obj",
+     "file": "T_2/mesh_2.obj",
      "color": [
       255,
       255,
@@ -1805,43 +893,11 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Circle.016",
-     "pos": [
-      0.0,
-      8.96622,
-      3.98018
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      -7.44286
-     ],
-     "file": "T_2/Circle_016.obj",
+     "file": "T_2/mesh_3.obj",
      "color": [
       67,
       76,
       195,
-      255
-     ],
-     "material": "hunter/myplastic"
-    },
-    {
-     "name": "Sphere.004",
-     "pos": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "file": "T_2/Sphere_004.obj",
-     "color": [
-      140,
-      181,
-      231,
       255
      ],
      "material": "hunter/myplastic"
@@ -1860,20 +916,9 @@
     0.0,
     0.0
    ],
-   "children": [
+   "meshes": [
     {
-     "name": "Circle.003",
-     "pos": [
-      0.0,
-      8.83266,
-      0.92499
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      -7.44286
-     ],
-     "file": "T_3/Circle_003.obj",
+     "file": "T_3/mesh_1.obj",
      "color": [
       140,
       181,
@@ -1883,18 +928,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Circle.011",
-     "pos": [
-      0.0,
-      8.73548,
-      1.71537
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      -7.44286
-     ],
-     "file": "T_3/Circle_011.obj",
+     "file": "T_3/mesh_2.obj",
      "color": [
       255,
       255,
@@ -1904,43 +938,11 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Circle.017",
-     "pos": [
-      0.0,
-      8.47956,
-      3.8085
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      -7.44286
-     ],
-     "file": "T_3/Circle_017.obj",
+     "file": "T_3/mesh_3.obj",
      "color": [
       47,
       33,
       105,
-      255
-     ],
-     "material": "hunter/myplastic"
-    },
-    {
-     "name": "Sphere.005",
-     "pos": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "file": "T_3/Sphere_005.obj",
-     "color": [
-      140,
-      181,
-      231,
       255
      ],
      "material": "hunter/myplastic"
@@ -1959,20 +961,9 @@
     0.0,
     0.0
    ],
-   "children": [
+   "meshes": [
     {
-     "name": "Circle.004",
-     "pos": [
-      0.0,
-      8.2415,
-      1.12938
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      -7.44286
-     ],
-     "file": "T_4/Circle_004.obj",
+     "file": "T_4/mesh_1.obj",
      "color": [
       140,
       181,
@@ -1982,18 +973,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Circle.012",
-     "pos": [
-      0.0,
-      8.09384,
-      1.78635
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      -7.44286
-     ],
-     "file": "T_4/Circle_012.obj",
+     "file": "T_4/mesh_2.obj",
      "color": [
       255,
       255,
@@ -2003,43 +983,11 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Circle.018",
-     "pos": [
-      0.0,
-      7.70422,
-      3.52619
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      -7.44286
-     ],
-     "file": "T_4/Circle_018.obj",
+     "file": "T_4/mesh_3.obj",
      "color": [
       67,
       76,
       195,
-      255
-     ],
-     "material": "hunter/myplastic"
-    },
-    {
-     "name": "Sphere.006",
-     "pos": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "file": "T_4/Sphere_006.obj",
-     "color": [
-      140,
-      181,
-      231,
       255
      ],
      "material": "hunter/myplastic"
@@ -2058,20 +1006,9 @@
     0.0,
     0.0
    ],
-   "children": [
+   "meshes": [
     {
-     "name": "Circle.005",
-     "pos": [
-      0.0,
-      7.97533,
-      1.60895
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      -7.44286
-     ],
-     "file": "T_5/Circle_005.obj",
+     "file": "T_5/mesh_1.obj",
      "color": [
       140,
       181,
@@ -2081,18 +1018,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Circle.014",
-     "pos": [
-      0.0,
-      7.7888,
-      2.15191
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      -7.44286
-     ],
-     "file": "T_5/Circle_014.obj",
+     "file": "T_5/mesh_2.obj",
      "color": [
       255,
       255,
@@ -2102,43 +1028,11 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Circle.019",
-     "pos": [
-      0.0,
-      7.29618,
-      3.5899
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      -7.44286
-     ],
-     "file": "T_5/Circle_019.obj",
+     "file": "T_5/mesh_3.obj",
      "color": [
       67,
       76,
       195,
-      255
-     ],
-     "material": "hunter/myplastic"
-    },
-    {
-     "name": "Sphere.007",
-     "pos": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "file": "T_5/Sphere_007.obj",
-     "color": [
-      140,
-      181,
-      231,
       255
      ],
      "material": "hunter/myplastic"
@@ -2157,20 +1051,9 @@
     0.0,
     0.0
    ],
-   "children": [
+   "meshes": [
     {
-     "name": "Cube.004",
-     "pos": [
-      0.0,
-      26.5575,
-      10.41933
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      9.27205
-     ],
-     "file": "T_7/Cube_004.obj",
+     "file": "T_7/mesh_1.obj",
      "color": [
       140,
       181,
@@ -2180,18 +1063,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Cube.006",
-     "pos": [
-      8.78103,
-      30.48698,
-      9.84756
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      9.27205
-     ],
-     "file": "T_7/Cube_006.obj",
+     "file": "T_7/mesh_2.obj",
      "color": [
       67,
       76,
@@ -2201,43 +1073,11 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Cube.007",
-     "pos": [
-      0.01161,
-      23.7883,
-      11.12316
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      9.27205
-     ],
-     "file": "T_7/Cube_007.obj",
+     "file": "T_7/mesh_3.obj",
      "color": [
       47,
       33,
       105,
-      255
-     ],
-     "material": "hunter/myplastic"
-    },
-    {
-     "name": "Sphere.009",
-     "pos": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "file": "T_7/Sphere_009.obj",
-     "color": [
-      140,
-      181,
-      231,
       255
      ],
      "material": "hunter/myplastic"
@@ -2256,20 +1096,9 @@
     0.0,
     0.0
    ],
-   "children": [
+   "meshes": [
     {
-     "name": "Circle.007",
-     "pos": [
-      0.0,
-      7.32211,
-      1.83124
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      -7.44286
-     ],
-     "file": "t_6/Circle_007.obj",
+     "file": "t_6/mesh_1.obj",
      "color": [
       140,
       181,
@@ -2279,18 +1108,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Circle.009",
-     "pos": [
-      0.09505,
-      7.12675,
-      2.2391
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      -7.44286
-     ],
-     "file": "t_6/Circle_009.obj",
+     "file": "t_6/mesh_2.obj",
      "color": [
       255,
       255,
@@ -2300,43 +1118,11 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Circle.020",
-     "pos": [
-      0.0,
-      6.53654,
-      3.45758
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      -7.44286
-     ],
-     "file": "t_6/Circle_020.obj",
+     "file": "t_6/mesh_3.obj",
      "color": [
       67,
       76,
       195,
-      255
-     ],
-     "material": "hunter/myplastic"
-    },
-    {
-     "name": "Sphere.008",
-     "pos": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      0.0
-     ],
-     "file": "t_6/Sphere_008.obj",
-     "color": [
-      140,
-      181,
-      231,
       255
      ],
      "material": "hunter/myplastic"
@@ -2355,20 +1141,9 @@
     0.0,
     0.0
    ],
-   "children": [
+   "meshes": [
     {
-     "name": "Circle.002",
-     "pos": [
-      1.80604,
-      6.81649,
-      7.01939
-     ],
-     "ang": [
-      74.15937,
-      51.27623,
-      41.72536
-     ],
-     "file": "Head/Circle_002.obj",
+     "file": "Head/mesh_1.obj",
      "color": [
       255,
       149,
@@ -2378,18 +1153,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Cube.010",
-     "pos": [
-      -0.03744,
-      -7.7027,
-      4.83083
-     ],
-     "ang": [
-      0.00118,
-      0.00051,
-      23.16809
-     ],
-     "file": "Head/Cube_010.obj",
+     "file": "Head/mesh_2.obj",
      "color": [
       154,
       0,
@@ -2399,18 +1163,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Eye Main.001",
-     "pos": [
-      4.01728,
-      -14.46396,
-      -1.7213
-     ],
-     "ang": [
-      78.73527,
-      73.00387,
-      70.89755
-     ],
-     "file": "Head/Eye_Main_001.obj",
+     "file": "Head/mesh_3.obj",
      "color": [
       103,
       252,
@@ -2420,18 +1173,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Frills",
-     "pos": [
-      -0.00555,
-      15.99833,
-      9.67418
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      33.07855
-     ],
-     "file": "Head/Frills.obj",
+     "file": "Head/mesh_4.obj",
      "color": [
       255,
       255,
@@ -2441,39 +1183,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Glass",
-     "pos": [
-      1.7063,
-      -11.80408,
-      4.61461
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      10.64653
-     ],
-     "file": "Head/Glass.obj",
-     "color": [
-      154,
-      0,
-      255,
-      255
-     ],
-     "material": "hunter/myplastic"
-    },
-    {
-     "name": "HeadDark",
-     "pos": [
-      2.60516,
-      -10.20933,
-      0.0127
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      10.64653
-     ],
-     "file": "Head/HeadDark.obj",
+     "file": "Head/mesh_5.obj",
      "color": [
       0,
       0,
@@ -2483,18 +1193,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "HeadM1.001",
-     "pos": [
-      3.01222,
-      -11.45906,
-      -1.33913
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      10.64653
-     ],
-     "file": "Head/HeadM1_001.obj",
+     "file": "Head/mesh_6.obj",
      "color": [
       140,
       181,
@@ -2504,18 +1203,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "HeadM2",
-     "pos": [
-      1.80753,
-      -3.36312,
-      2.83589
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      10.64653
-     ],
-     "file": "Head/HeadM2.obj",
+     "file": "Head/mesh_7.obj",
      "color": [
       47,
       33,
@@ -2525,18 +1213,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "HeadM2.001",
-     "pos": [
-      1.80753,
-      -3.36312,
-      2.83589
-     ],
-     "ang": [
-      0.0,
-      0.0,
-      10.64653
-     ],
-     "file": "Head/HeadM2_001.obj",
+     "file": "Head/mesh_8.obj",
      "color": [
       67,
       76,
@@ -2546,18 +1223,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "name": "Iris",
-     "pos": [
-      4.04283,
-      -14.63059,
-      -1.93875
-     ],
-     "ang": [
-      -111.37315,
-      59.54721,
-      -93.0045
-     ],
-     "file": "Head/Iris.obj",
+     "file": "Head/mesh_9.obj",
      "color": [
       7,
       0,
