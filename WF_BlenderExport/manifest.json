@@ -561,6 +561,16 @@
       255
      ],
      "material": "hunter/myplastic"
+    },
+    {
+     "file": "L_Thigh/mesh_3.obj",
+     "color": [
+      140,
+      181,
+      231,
+      255
+     ],
+     "material": "hunter/myplastic"
     }
    ]
   },
