@@ -16,7 +16,9 @@ local PROJECT = "WF_BlenderExport"
 -- forward-axis setting (manifest "yaw"). 90 turns a Blender -Y-facing model to face +X.
 local YAW_OFFSET = 0
 local BASE_URL = REPO_URL .. PROJECT .. "/"
-local HOLO_MODEL = "models/holograms/cube.mdl"
+-- Not models/holograms/cube.mdl: Starfall draws a mesh turned 90 degrees about up on that model
+-- (measured in game), while this model draws it in the hologram's own frame.
+local HOLO_MODEL = "models/hunter/blocks/cube1x1x1.mdl"
 
 P2M = {nodes = {}, loaded = false}
 

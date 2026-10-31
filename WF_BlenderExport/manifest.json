@@ -2,7 +2,7 @@
  "version": 2,
  "name": "WF_BlenderExport",
  "nocull": false,
- "yaw": -90.0,
+ "yaw": 0.0,
  "nodes": [
   {
    "name": "T_Upper",
