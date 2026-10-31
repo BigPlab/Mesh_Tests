@@ -10,7 +10,7 @@
 --
 -- Animate by moving anchors:  P2M.nodes["hull/torso"]:setLocalAngles(Angle(0, yaw, 0))
 -- The only two things to edit: the repository's raw URL and the project folder inside it.
-local REPO_URL = "https://raw.githubusercontent.com/USER/REPO/main/"
+local REPO_URL = "https://raw.githubusercontent.com/BigPlab/Mesh_Tests/main/"
 local PROJECT = "WF_BlenderExport"
 local BASE_URL = REPO_URL .. PROJECT .. "/"
 local HOLO_MODEL = "models/holograms/cube.mdl"
