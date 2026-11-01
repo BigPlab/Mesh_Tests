@@ -960,9 +960,9 @@
     {
      "file": "T_3/mesh_3.obj",
      "color": [
-      47,
-      33,
-      105,
+      67,
+      76,
+      195,
       255
      ],
      "material": "hunter/myplastic"
