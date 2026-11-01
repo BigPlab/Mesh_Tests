@@ -15,6 +15,9 @@ local PROJECT = "WF_BlenderExport"
 -- Extra turn of the whole model about the chip's up axis, added to the export's own
 -- forward-axis setting (manifest "yaw"). 90 turns a Blender -Y-facing model to face +X.
 local YAW_OFFSET = 0
+-- Show every pivot (the node holograms that carry parts and can be animated) as a small magenta
+-- cube with a red nub along its forward (+X) axis. Costs up to two extra holograms per pivot.
+local DEBUG = false
 local BASE_URL = REPO_URL .. PROJECT .. "/"
 -- Not models/holograms/cube.mdl: Starfall draws a mesh turned 90 degrees about up on that model
 -- (measured in game), while this model draws it in the hologram's own frame.
@@ -124,7 +127,29 @@ local function build(node, parent, path, nocull, yaw)
             end
         end
     end
-    if not drawn then anchor:setNoDraw(true) end
+    if DEBUG then
+        local function paint(h, r, g, b)
+            h:setMaterial("models/debug/debugwhite")
+            h:setColor(Color(r, g, b))
+        end
+        if drawn then  -- the anchor carries a mesh, so the marker is a child
+            local marker = newHolo(anchor)
+            marker:setLocalPos(Vector(0, 0, 0))
+            marker:setLocalAngles(Angle(0, 0, 0))
+            marker:setScale(Vector(0.25, 0.25, 0.25))
+            paint(marker, 255, 0, 255)
+        else           -- no mesh: the anchor itself is the marker
+            anchor:setScale(Vector(0.25, 0.25, 0.25))
+            paint(anchor, 255, 0, 255)
+        end
+        local nub = newHolo(anchor)
+        nub:setLocalPos(Vector(18, 0, 0))
+        nub:setLocalAngles(Angle(0, 0, 0))
+        nub:setScale(Vector(0.5, 0.1, 0.1))
+        paint(nub, 255, 0, 0)
+    elseif not drawn then
+        anchor:setNoDraw(true)
+    end
     for _, child in ipairs(node.children or {}) do
         build(child, anchor, path, nocull)
     end
@@ -144,15 +169,24 @@ local function load()
         build(node, chip(), "", manifest.nocull, yaw)
     end
     P2M.loaded = true
+    if DEBUG then
+        for path in pairs(P2M.nodes) do print("P2M pivot: " .. path) end
+    end
     print(string.format("P2M: done, %d nodes in %.1fs", table.count(P2M.nodes), timer.systime() - started))
 end
 
 -- Needs the client to grant the permissions Starfall asks for (http, mesh, material, hologram, parenting).
+-- Starfall's threaded mesh parser yields every ~100 lines, so resuming once per tick would
+-- cap the load at 100 lines per tick. Keep resuming within the tick while there is quota.
 local co = coroutine.create(load)
 hook.add("think", "p2m_loader", function()
     pump()
-    if coroutine.status(co) == "dead" then hook.remove("think", "p2m_loader") return end
-    if quotaAverage() < quotaMax() * 0.5 then
+    local me = chip()
+    local budget, resumes = quotaMax() * 0.7, 0
+    while coroutine.status(co) ~= "dead" and resumes < 2000
+            and me:getQuotaUsed() < budget and quotaAverage() < quotaMax() * 0.9 do
         coroutine.resume(co)
+        resumes = resumes + 1
     end
+    if coroutine.status(co) == "dead" then hook.remove("think", "p2m_loader") end
 end)

@@ -261,6 +261,16 @@
       255
      ],
      "material": "hunter/myplastic"
+    },
+    {
+     "file": "L_Shoulder/mesh_5.obj",
+     "color": [
+      255,
+      255,
+      255,
+      255
+     ],
+     "material": "hunter/myplastic"
     }
    ]
   },
