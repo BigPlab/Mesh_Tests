@@ -1175,16 +1175,6 @@
     {
      "file": "Head/mesh_2.obj",
      "color": [
-      154,
-      0,
-      255,
-      255
-     ],
-     "material": "hunter/myplastic"
-    },
-    {
-     "file": "Head/mesh_3.obj",
-     "color": [
       103,
       252,
       255,
@@ -1193,10 +1183,20 @@
      "material": "hunter/myplastic"
     },
     {
-     "file": "Head/mesh_4.obj",
+     "file": "Head/mesh_3.obj",
      "color": [
       255,
       255,
+      255,
+      255
+     ],
+     "material": "hunter/myplastic"
+    },
+    {
+     "file": "Head/mesh_4.obj",
+     "color": [
+      154,
+      0,
       255,
       255
      ],
