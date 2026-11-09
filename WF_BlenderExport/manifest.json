@@ -1253,6 +1253,41 @@
      "material": "hunter/myplastic"
     }
    ]
+  },
+  {
+   "name": "DuskMag",
+   "pos": [
+    36.2916,
+    13.14445,
+    110.95609
+   ],
+   "ang": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "meshes": [
+    {
+     "file": "DuskMag/mesh_1.obj",
+     "color": [
+      255,
+      255,
+      255,
+      255
+     ],
+     "material": "hunter/myplastic"
+    },
+    {
+     "file": "DuskMag/mesh_2.obj",
+     "color": [
+      255,
+      255,
+      255,
+      255
+     ],
+     "material": "hunter/myplastic"
+    }
+   ]
   }
  ]
 }
