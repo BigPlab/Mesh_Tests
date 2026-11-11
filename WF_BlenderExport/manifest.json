@@ -1288,6 +1288,51 @@
      "material": "hunter/myplastic"
     }
    ]
+  },
+  {
+   "name": "AT4",
+   "pos": [
+    59.76783,
+    -18.22127,
+    108.1525
+   ],
+   "ang": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "meshes": [
+    {
+     "file": "AT4/mesh_1.obj",
+     "color": [
+      255,
+      1,
+      23,
+      255
+     ],
+     "material": "hunter/myplastic"
+    },
+    {
+     "file": "AT4/mesh_2.obj",
+     "color": [
+      194,
+      255,
+      223,
+      255
+     ],
+     "material": "hunter/myplastic"
+    },
+    {
+     "file": "AT4/mesh_3.obj",
+     "color": [
+      132,
+      132,
+      132,
+      255
+     ],
+     "material": "hunter/myplastic"
+    }
+   ]
   }
  ]
 }
