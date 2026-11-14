@@ -1271,21 +1271,61 @@
      "file": "DuskMag/mesh_1.obj",
      "color": [
       255,
-      255,
-      255,
+      252,
+      227,
       255
      ],
-     "material": "hunter/myplastic"
+     "material": "models/v_satchel/drabcloth"
     },
     {
      "file": "DuskMag/mesh_2.obj",
      "color": [
       255,
-      255,
+      147,
+      44,
+      255
+     ],
+     "material": "models/shiny"
+    },
+    {
+     "file": "DuskMag/mesh_3.obj",
+     "color": [
+      158,
+      158,
+      158,
+      255
+     ],
+     "material": "sprops/textures/sprops_metal5"
+    },
+    {
+     "file": "DuskMag/mesh_4.obj",
+     "color": [
+      115,
+      115,
+      115,
+      255
+     ],
+     "material": "sprops/textures/sprops_metal5"
+    },
+    {
+     "file": "DuskMag/mesh_5.obj",
+     "color": [
+      169,
+      169,
+      169,
+      255
+     ],
+     "material": "sprops/trans/lights/light_plastic"
+    },
+    {
+     "file": "DuskMag/mesh_6.obj",
+     "color": [
+      143,
+      179,
       255,
       255
      ],
-     "material": "hunter/myplastic"
+     "material": "models/debug/debugwhite"
     }
    ]
   },
