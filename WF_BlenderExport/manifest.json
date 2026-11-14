@@ -1300,9 +1300,9 @@
     {
      "file": "DuskMag/mesh_4.obj",
      "color": [
-      115,
-      115,
-      115,
+      107,
+      107,
+      107,
       255
      ],
      "material": "sprops/textures/sprops_metal5"
@@ -1310,9 +1310,9 @@
     {
      "file": "DuskMag/mesh_5.obj",
      "color": [
-      169,
-      169,
-      169,
+      150,
+      150,
+      150,
       255
      ],
      "material": "sprops/trans/lights/light_plastic"
