@@ -1332,7 +1332,7 @@
   {
    "name": "AT4",
    "pos": [
-    59.76783,
+    81.65068,
     -18.22127,
     108.1525
    ],
@@ -1345,19 +1345,19 @@
     {
      "file": "AT4/mesh_1.obj",
      "color": [
-      255,
-      1,
-      23,
+      129,
+      129,
+      129,
       255
      ],
-     "material": "hunter/myplastic"
+     "material": "sprops/textures/sprops_metal5"
     },
     {
      "file": "AT4/mesh_2.obj",
      "color": [
-      194,
-      255,
-      223,
+      45,
+      45,
+      45,
       255
      ],
      "material": "hunter/myplastic"
@@ -1365,12 +1365,52 @@
     {
      "file": "AT4/mesh_3.obj",
      "color": [
-      132,
-      132,
-      132,
+      145,
+      168,
+      255,
       255
      ],
-     "material": "hunter/myplastic"
+     "material": "models/debug/debugwhite"
+    },
+    {
+     "file": "AT4/mesh_4.obj",
+     "color": [
+      126,
+      142,
+      42,
+      255
+     ],
+     "material": "sprops/textures/sprops_metal5"
+    },
+    {
+     "file": "AT4/mesh_5.obj",
+     "color": [
+      108,
+      108,
+      108,
+      255
+     ],
+     "material": "phoenix_storms/concrete1"
+    },
+    {
+     "file": "AT4/mesh_6.obj",
+     "color": [
+      255,
+      229,
+      9,
+      255
+     ],
+     "material": "models/debug/debugwhite"
+    },
+    {
+     "file": "AT4/mesh_7.obj",
+     "color": [
+      178,
+      190,
+      127,
+      255
+     ],
+     "material": "sprops/textures/sprops_metal5"
     }
    ]
   }
