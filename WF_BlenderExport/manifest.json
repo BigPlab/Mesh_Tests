@@ -1345,9 +1345,9 @@
     {
      "file": "AT4/mesh_1.obj",
      "color": [
-      129,
-      129,
-      129,
+      97,
+      97,
+      97,
       255
      ],
      "material": "sprops/textures/sprops_metal5"
@@ -1375,9 +1375,9 @@
     {
      "file": "AT4/mesh_4.obj",
      "color": [
-      126,
-      142,
-      42,
+      87,
+      98,
+      29,
       255
      ],
      "material": "sprops/textures/sprops_metal5"
@@ -1390,7 +1390,7 @@
       108,
       255
      ],
-     "material": "phoenix_storms/concrete1"
+     "material": "phoenix_storms/concrete0"
     },
     {
      "file": "AT4/mesh_6.obj",
@@ -1405,9 +1405,9 @@
     {
      "file": "AT4/mesh_7.obj",
      "color": [
-      178,
-      190,
-      127,
+      122,
+      131,
+      87,
       255
      ],
      "material": "sprops/textures/sprops_metal5"
