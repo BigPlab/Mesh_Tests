@@ -1290,9 +1290,9 @@
     {
      "file": "DuskMag/mesh_3.obj",
      "color": [
-      158,
-      158,
-      158,
+      84,
+      84,
+      84,
       255
      ],
      "material": "sprops/textures/sprops_metal5"
@@ -1300,9 +1300,9 @@
     {
      "file": "DuskMag/mesh_4.obj",
      "color": [
-      107,
-      107,
-      107,
+      98,
+      98,
+      98,
       255
      ],
      "material": "sprops/textures/sprops_metal5"
@@ -1310,9 +1310,9 @@
     {
      "file": "DuskMag/mesh_5.obj",
      "color": [
-      150,
-      150,
-      150,
+      118,
+      118,
+      118,
       255
      ],
      "material": "sprops/trans/lights/light_plastic"
@@ -1345,9 +1345,9 @@
     {
      "file": "AT4/mesh_1.obj",
      "color": [
-      97,
-      97,
-      97,
+      50,
+      50,
+      50,
       255
      ],
      "material": "sprops/textures/sprops_metal5"
@@ -1375,19 +1375,19 @@
     {
      "file": "AT4/mesh_4.obj",
      "color": [
-      87,
       98,
-      29,
+      111,
+      33,
       255
      ],
-     "material": "sprops/textures/sprops_metal5"
+     "material": "sprops/textures/sprops_metal1"
     },
     {
      "file": "AT4/mesh_5.obj",
      "color": [
-      108,
-      108,
-      108,
+      92,
+      92,
+      92,
       255
      ],
      "material": "phoenix_storms/concrete0"
@@ -1400,17 +1400,17 @@
       9,
       255
      ],
-     "material": "models/debug/debugwhite"
+     "material": "sprops/textures/sprops_metal1"
     },
     {
      "file": "AT4/mesh_7.obj",
      "color": [
-      122,
-      131,
-      87,
+      105,
+      113,
+      75,
       255
      ],
-     "material": "sprops/textures/sprops_metal5"
+     "material": "sprops/textures/sprops_metal1"
     }
    ]
   }
