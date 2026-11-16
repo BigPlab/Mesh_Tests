@@ -1413,6 +1413,56 @@
      "material": "sprops/textures/sprops_metal1"
     }
    ]
+  },
+  {
+   "name": "RCS Thrusters",
+   "pos": [
+    0.135,
+    13.11739,
+    168.06316
+   ],
+   "ang": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "meshes": [
+    {
+     "file": "RCS_Thrusters/mesh_1.obj",
+     "color": [
+      182,
+      255,
+      239,
+      255
+     ],
+     "material": "hunter/myplastic"
+    }
+   ]
+  },
+  {
+   "name": "Main Thrusters",
+   "pos": [
+    0.135,
+    13.11739,
+    176.80444
+   ],
+   "ang": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "meshes": [
+    {
+     "file": "Main_Thrusters/mesh_1.obj",
+     "color": [
+      255,
+      172,
+      37,
+      255
+     ],
+     "material": "hunter/myplastic"
+    }
+   ]
   }
  ]
 }
