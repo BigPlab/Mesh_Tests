@@ -51,6 +51,16 @@
      "file": "T_Upper/mesh_4.obj",
      "color": [
       255,
+      182,
+      0,
+      255
+     ],
+     "material": "hunter/myplastic"
+    },
+    {
+     "file": "T_Upper/mesh_5.obj",
+     "color": [
+      255,
       255,
       255,
       255
@@ -58,7 +68,7 @@
      "material": "hunter/myplastic"
     },
     {
-     "file": "T_Upper/mesh_5.obj",
+     "file": "T_Upper/mesh_6.obj",
      "color": [
       140,
       181,
@@ -68,11 +78,21 @@
      "material": "hunter/myplastic"
     },
     {
-     "file": "T_Upper/mesh_6.obj",
+     "file": "T_Upper/mesh_7.obj",
      "color": [
       67,
       76,
       195,
+      255
+     ],
+     "material": "hunter/myplastic"
+    },
+    {
+     "file": "T_Upper/mesh_8.obj",
+     "color": [
+      176,
+      230,
+      255,
       255
      ],
      "material": "hunter/myplastic"
@@ -1411,56 +1431,6 @@
       255
      ],
      "material": "sprops/textures/sprops_metal1"
-    }
-   ]
-  },
-  {
-   "name": "RCS Thrusters",
-   "pos": [
-    0.135,
-    13.11739,
-    168.06316
-   ],
-   "ang": [
-    0.0,
-    0.0,
-    0.0
-   ],
-   "meshes": [
-    {
-     "file": "RCS_Thrusters/mesh_1.obj",
-     "color": [
-      182,
-      255,
-      239,
-      255
-     ],
-     "material": "hunter/myplastic"
-    }
-   ]
-  },
-  {
-   "name": "Main Thrusters",
-   "pos": [
-    0.135,
-    13.11739,
-    176.80444
-   ],
-   "ang": [
-    0.0,
-    0.0,
-    0.0
-   ],
-   "meshes": [
-    {
-     "file": "Main_Thrusters/mesh_1.obj",
-     "color": [
-      255,
-      172,
-      37,
-      255
-     ],
-     "material": "hunter/myplastic"
     }
    ]
   }
